@@ -1,8 +1,11 @@
 logs
 target
-/.idea
-/.idea_modules
-/.classpath
-/.project
-/.settings
-/RUNNING_PID
+.idea
+.idea_modules
+.sbtserver
+
+project/sbt-ui.sbt
+project/play-fork-run.sbt
+project/idea.sbt
+project/.sbtserver.lock
+project/project
