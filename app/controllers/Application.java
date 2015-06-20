@@ -1,14 +1,19 @@
 package controllers;
 
-import play.*;
-import play.mvc.*;
+import play.mvc.Controller;
+import play.mvc.Result;
 
-import views.html.*;
-
+/**
+ * Application's Controller.
+ */
 public class Application extends Controller {
 
+    /**
+     * Home Page.
+     * @return http response containing html result.
+     */
     public Result index() {
-        return ok(index.render("Your new application is ready."));
+        return ok(views.html.index.render("Your new application is ready."));
     }
 
 }
